@@ -1,0 +1,40 @@
+.meet-logo{
+height: 30px;
+border: 1px solid black;
+display: flex;
+width: 80px;
+margin: auto;
+}
+
+.ovals{
+width: 17px;
+height: 100%;
+border: 1px solid black;
+}
+
+.one{
+margin-top: 5px;
+margin-left: 7px;
+}
+span{
+font-size: 25px;
+}
+
+.oval{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.first-section{
+    border: 1px solid black;
+}
+
+.first-section-image{
+        border: 1px solid black;
+}
+
+.info-links{
+        border: 1px solid black;
+}
