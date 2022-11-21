@@ -1,3 +1,7 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 .meet-logo{
 height: 30px;
 border: 1px solid black;
@@ -29,12 +33,95 @@ font-size: 25px;
 
 .first-section{
     border: 1px solid black;
+    display: flex;
+    overflow: hidden;
 }
 
 .first-section-image{
         border: 1px solid black;
+        width: 30%;
+}
+
+#left-image{
+    margin-left: -20px;
+}
+
+#right-image{
+margin-left : 30px;
 }
 
 .info-links{
         border: 1px solid black;
+        width: 40%;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.link-btns{
+    margin-top: 50px;
+}
+
+button{
+border-radius: 100px;
+height: 37px;
+padding-left: 20px;
+padding-right: 25px;
+}
+
+.section-number{
+    height: 140px;
+    width: 56px;
+    margin: auto;
+}
+
+.line{
+    height: 81px;
+    border-left: 1px solid #87889d;
+    width: 0;
+    margin: auto;
+}
+
+.number{
+    height: 56px;
+    width: 54px;
+    border-radius: 50%;
+    border: 1px solid #87889d;
+    text-align: center;
+    line-height: 56px;
+}
+
+.second-section{
+    display: flex;
+    width: 1110px;
+    height: 242px;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.second-section img{
+    height: 100%;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.about-meet{
+    width: 500px;
+    height: 240px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-meet h4{
+color: #4d96a9;
+}
+
+.about-meet p{
+    padding: 0 20px;
 }
