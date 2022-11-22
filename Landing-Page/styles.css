@@ -2,37 +2,37 @@
 
 body{
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 .meet-logo{
-height: 30px;
+height: 1.875rem;
 display: flex;
-width: 119px;
+width: 7.4375rem;
 margin: auto;
 }
 
 .logo-name{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     font-weight: bolder;
-    line-height: 28px;
+    line-height: 1.75rem;
     color: #28283d;
 }
 
 .ovals{
-width: 28px;
-height: 28px;
+width: 1.75rem;
+height: 1.75rem;
 height: 100%;
-margin-right: 5px;
+margin-right: 0.3rem;
 }
 
 .one{
 margin-top: 0;
-margin-left: 10px;
-background-color: #855fb1;;
+margin-left: 0.625rem;
+background-color: #855fb1;
 }
 
 .two{
@@ -41,8 +41,8 @@ background-color: #4d96a9;
 }
 
 .oval{
-    height: 14px;
-    width: 14px;
+    height: 0.875rem;
+    width: 0.875rem;
     border-radius: 50%;
 
 }
@@ -50,7 +50,7 @@ background-color: #4d96a9;
 .first-section{
 display: flex;
 overflow: hidden;
-margin-bottom: 100px;
+margin-bottom: 6.25rem;
 }
 
 .first-section-image{
@@ -58,46 +58,50 @@ margin-bottom: 100px;
 }
 
 #left-image{
-    margin-left: -20px;
+    margin-left: -1.25rem;
 }
 
 #right-image{
-margin-left : 30px;
+margin-left : 1.875rem;
 }
 
 .info-links{
         width: 40%;
         text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 3.125rem;
+        padding-right: 3.125rem;
+}
+
+.info-links p{
+    color: #87879d;
 }
 
 h1{
-    font-size: 64px;
+    font-size: 4rem;
     font-family: 'Red Hat Display', sans-serif;
     color: #28283d;
 
 }
 
 .link-btns{
-    margin-top: 50px;
+    margin-top: 3.125rem;
     
 }
 
 button{
-border-radius: 100px;
+border-radius: 6.25rem;
 border: 0;
-width: 193px;
-height: 58px;
+width: 12rem;
+height: 3.625rem;
 color: #ffffff;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 900;
-line-height: 26px;
+line-height: 1.625rem;
 }
 
 .download-btn{
 background-color: #4d96a9;
-margin-right: 10px;
+margin-right: 0.625rem;
 }
 
 .download-btn:hover{
@@ -109,7 +113,7 @@ span{
 }
 
 .info-btn{
-    width: 139px;
+    width: 8.68rem;
     background-color: #855fb1;
 }
 
@@ -118,73 +122,73 @@ span{
 }
 
 .section-number{
-    height: 140px;
-    width: 56px;
+    height: 8.75rem;
+    width: 3.5rem;
     margin: auto;
     position: relative;
-    z-index: 9;
+    z-index: 1;
 }
 
 .line{
-    height: 81px;
+    height: 5.06rem;
     border-left: 1px solid #87879d;
     width: 0;
     margin: auto;
 }
 
 .number{
-    height: 56px;
-    width: 56px;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     border: 1px solid #87879d;
     text-align: center;
-    line-height: 56px;
+    line-height: 3.5rem;
     background-color: white;
 }
 
 .second-section{
     display: flex;
-    width: 1110px;
-    height: 242px;
+    width: 69.375rem;
+    height: 15rem;
     justify-content: space-between;
     margin: auto;
 }
 
 .second-section img{
     height: 100%;
-    width: 250px;
-    border-radius: 10px;
+    width: 15.6rem;
+    border-radius: 0.625rem;
 }
 
 .about-meet{
-    width: 500px;
-    height: 240px;
+    width: 31.25rem;
+    height: 15rem;
     margin: auto;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 9.375rem;
 }
 
 .overline{
 color: #4d96a9;
-font-size: 20px;
-letter-spacing: 4px;
+font-size: 1.25rem;
+letter-spacing: 0.25rem;
 }
 
 .about-meet p{
-    padding: 0 10px;
-    font-size: 18px;
+    padding: 0 0.625rem;
+    font-size: 1.125rem;
 }
 
 h2{
-font-size: 44px;
+font-size: 2.75rem;
 }
 
 .footer{
-    margin-top: -28px;
+    margin-top: -1.75rem;
     color: white;
     background-image: url("./assets/desktop/image-footer.jpg");
     background-size: cover;
-    height: 308px;
+    height: 19.25rem;
     width: 100%;
 }
 
@@ -193,20 +197,20 @@ font-size: 44px;
 background-color: rgba(77, 150, 168, 0.9);
 display: flex;
 align-items: center;
-padding-left: 110px;
+padding-left: 6.875rem;
 }
 
 .overlay-text-1{
-    font-size: 40px;
-    width: 400px;
+    font-size: 2.75rem;
+    width: 25rem;
     font-weight: 650;
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .overlay-text-2 {
-    font-size: 20px;
-    width: 380px;
-    margin-right: 90px;
+    font-size: 1.25rem;
+    width: 23.75rem;
+    margin-right: 5.625rem;
 }
 
 .overlay-btn .download-btn{
