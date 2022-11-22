@@ -1,44 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
 body{
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 70px;
 }
 
 .meet-logo{
 height: 30px;
-border: 1px solid black;
 display: flex;
-width: 80px;
+width: 119px;
 margin: auto;
 }
 
+.logo-name{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 28px;
+    color: #28283d;
+}
+
 .ovals{
-width: 17px;
+width: 28px;
+height: 28px;
 height: 100%;
-border: 1px solid black;
+margin-right: 5px;
 }
 
 .one{
-margin-top: 5px;
-margin-left: 7px;
+margin-top: 0;
+margin-left: 10px;
+background-color: #855fb1;;
 }
-span{
-font-size: 25px;
+
+.two{
+background-color: #4d96a9;
+
 }
 
 .oval{
-    height: 6px;
-    width: 6px;
+    height: 14px;
+    width: 14px;
     border-radius: 50%;
-    border: 1px solid black;
+
 }
 
 .first-section{
-    border: 1px solid black;
-    display: flex;
-    overflow: hidden;
+display: flex;
+overflow: hidden;
+margin-bottom: 100px;
 }
 
 .first-section-image{
-        border: 1px solid black;
         width: 30%;
 }
 
@@ -51,7 +66,6 @@ margin-left : 30px;
 }
 
 .info-links{
-        border: 1px solid black;
         width: 40%;
         text-align: center;
         padding-left: 50px;
@@ -61,46 +75,77 @@ margin-left : 30px;
 h1{
     font-size: 64px;
     font-family: 'Red Hat Display', sans-serif;
+    color: #28283d;
+
 }
 
 .link-btns{
     margin-top: 50px;
+    
 }
 
 button{
 border-radius: 100px;
-height: 37px;
-padding-left: 20px;
-padding-right: 25px;
+border: 0;
+width: 193px;
+height: 58px;
+color: #ffffff;
+font-size: 16px;
+font-weight: 900;
+line-height: 26px;
+}
+
+.download-btn{
+background-color: #4d96a9;
+margin-right: 10px;
+}
+
+.download-btn:hover{
+    background-color: #8FE3F9;
+}
+
+span{
+    color: #8FE3F9;;
+}
+
+.info-btn{
+    width: 139px;
+    background-color: #855fb1;
+}
+
+.info-btn:hover{
+    background-color: #D9B8FF;
 }
 
 .section-number{
     height: 140px;
     width: 56px;
     margin: auto;
+    position: relative;
+    z-index: 9;
 }
 
 .line{
     height: 81px;
-    border-left: 1px solid #87889d;
+    border-left: 1px solid #87879d;
     width: 0;
     margin: auto;
 }
 
 .number{
     height: 56px;
-    width: 54px;
+    width: 56px;
     border-radius: 50%;
-    border: 1px solid #87889d;
+    border: 1px solid #87879d;
     text-align: center;
     line-height: 56px;
+    background-color: white;
 }
 
 .second-section{
     display: flex;
     width: 1110px;
     height: 242px;
-    border: 1px solid black;
     justify-content: space-between;
     margin: auto;
 }
@@ -116,12 +161,63 @@ padding-right: 25px;
     height: 240px;
     margin: auto;
     text-align: center;
+    margin-bottom: 150px;
 }
 
-.about-meet h4{
+.overline{
 color: #4d96a9;
+font-size: 20px;
+letter-spacing: 4px;
 }
 
 .about-meet p{
-    padding: 0 20px;
+    padding: 0 10px;
+    font-size: 18px;
 }
+
+h2{
+font-size: 44px;
+}
+
+.footer{
+    margin-top: -28px;
+    color: white;
+    background-image: url("./assets/desktop/image-footer.jpg");
+    background-size: cover;
+    height: 308px;
+    width: 100%;
+}
+
+.image-overlay{
+    height: 100%;    
+background-color: rgba(77, 150, 168, 0.9);
+display: flex;
+align-items: center;
+padding-left: 110px;
+}
+
+.overlay-text-1{
+    font-size: 40px;
+    width: 400px;
+    font-weight: 650;
+    margin-right: 50px;
+}
+
+.overlay-text-2 {
+    font-size: 20px;
+    width: 380px;
+    margin-right: 90px;
+}
+
+.overlay-btn .download-btn{
+    background-color: #855fb1;
+} 
+
+.overlay-btn .download-btn span{
+    color: #D9B8FF;
+}
+
+.overlay-btn .download-btn:hover{
+    background-color: #D9B8FF;
+}
+
