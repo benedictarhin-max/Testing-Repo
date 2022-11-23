@@ -299,18 +299,43 @@ height: 428px;
 @media screen and (max-width: 375px){
     body{
         width: 375px;
+        overflow-x: hidden;
+        padding-right: 0;
+    }
+
+
+    .first-section{
+        width: 100%;
+        height: 153px;
+        border: 1px solid black;
+    }
+
+    
+    #left-image{
+        width: 199px;
+            height: 153px;
+            padding-left: 10px;
+    }
+    
+    
+    #right-image{ 
+        width: 199px; 
+        height: 153px; 
+        margin-left: 0;
+        padding-left: 15px;
     }
     
     .info-links{
-        border: 1px solid black;
-        height: 400px;
+        height: 420px;
         display: flex;
-            flex-direction: column;
+        flex-direction: column;
+        width: 327px;
+        margin-left: 0;
+        margin-top: 200px;
     }
     .info-links h1{
             width: 327px;
             height: 88px;
-            border: 1px solid black;
             font-size: 40px;
             line-height: 44px;
         }
@@ -318,12 +343,80 @@ height: 428px;
 .info-links p{
             width: 327px;
             height: 78px;
-            border: 1px solid black;
+            font-size: 16px;
         }
 
 .link-btns{  
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    margin-top: 19px;
+    height: 142px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
 }        
+
+.second-section {
+    display: flex;
+    width: 327px;
+    height: 310px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 17px;
+    margin-right: 24px;
+}
+
+.second-section-image{
+width: 151px;
+height: 143px;
+}
+
+#scnd-sct-img-1,
+#scnd-sct-img-2 {
+    margin-bottom: 24px;
+}
+
+#scnd-sct-img-1,
+#scnd-sct-img-3 {
+    margin-right: 25px;
+}
+
+.about-meet{
+    width: 327px;
+    height: 284px;
+}
+
+.overline, .about-meet p{
+    font-size: 16px;
+}
+
+.about-meet h2{
+    font-size: 32px;
+}
+
+#two{
+    margin-top: -70px;
+}
+.footer{
+    background-image: url("./assets/desktop/image-footer.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 428px;
+        width: 375px;
+}
+
+.overlay-text-1{
+    width: 327px;
+    font-size: 32px;
+margin-right: 62px;
+}
+
+.overlay-text-2{
+    width: 327px;
+    height: 78px;
+font-size: 18px;
+margin-left: 17px;
+}
 
 }
