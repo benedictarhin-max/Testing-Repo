@@ -5,6 +5,7 @@ body{
     font-size: 1.25rem;
     margin: 0;
     margin-top: 4.375rem;
+    overflow-x: hidden;
 }
 
 .meet-logo{
@@ -49,27 +50,30 @@ background-color: #4d96a9;
 
 .first-section{
 display: flex;
-overflow: hidden;
 margin-bottom: 6.25rem;
+width: 100vw;
+overflow: hidden;
 }
 
 .first-section-image{
-        width: 30%;
+        width: 380px;
+        
 }
 
 #left-image{
-    margin-left: -1.25rem;
+    margin-left: -2rem;
 }
 
 #right-image{
-margin-left : 1.875rem;
+margin-right: 0;
+padding-left: 0;
 }
 
 .info-links{
-        width: 40%;
+        width: 530px;
         text-align: center;
-        padding-left: 3.125rem;
-        padding-right: 3.125rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
 }
 
 .info-links p{
@@ -189,7 +193,7 @@ font-size: 2.75rem;
     background-image: url("./assets/desktop/image-footer.jpg");
     background-size: cover;
     height: 19.25rem;
-    width: 100%;
+    width: 100vw;
 }
 
 .image-overlay{
@@ -197,7 +201,8 @@ font-size: 2.75rem;
 background-color: rgba(77, 150, 168, 0.9);
 display: flex;
 align-items: center;
-padding-left: 6.875rem;
+padding-left: 4rem;
+
 }
 
 .overlay-text-1{
@@ -210,7 +215,7 @@ padding-left: 6.875rem;
 .overlay-text-2 {
     font-size: 1.25rem;
     width: 23.75rem;
-    margin-right: 5.625rem;
+    margin-right: 5rem;
 }
 
 .overlay-btn .download-btn{
@@ -225,3 +230,100 @@ padding-left: 6.875rem;
     background-color: #D9B8FF;
 }
 
+
+@media screen and (max-width: 768px) {
+    .info-links{
+        position: absolute;
+        width: 460px;
+            height: 262px;
+            margin-top: 20rem;
+            margin-left: 7.68rem;
+    }
+
+    .first-section {
+margin-top: 5rem;
+width: 768px;
+        }
+
+        #right-image{
+            margin-left: 1rem;
+        }
+#one{
+    margin-top: 35rem;
+}
+
+.second-section{
+    width: 689px;
+    height: 156px;
+}
+
+.second-section img{
+    width: 164px;
+    height: 156px;
+}
+
+.footer{
+background-image: url("./assets/desktop/image-footer.jpg");
+background-size: cover;
+background-position: center;
+height: 428px;
+}
+
+    .image-overlay{
+        flex-direction: column;
+        justify-content: space-around;
+    }                    
+
+    
+    .overlay-text-1{
+        width: 457px;
+        height: 88px;
+        text-align: center;
+    }
+        .overlay-text-2{
+            width: 573px;
+            height: 52px;
+            text-align: center; 
+            font-size: 1.1rem;    
+            margin-top: -4rem;  
+        }
+
+    .overlay-btn{
+    width: 193px;
+    height: 58px;
+    margin-right: 5rem;
+    margin-top: -5rem;
+                }
+            }
+
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    
+    .info-links{
+        border: 1px solid black;
+        height: 400px;
+        display: flex;
+            flex-direction: column;
+    }
+    .info-links h1{
+            width: 327px;
+            height: 88px;
+            border: 1px solid black;
+            font-size: 40px;
+            line-height: 44px;
+        }
+
+.info-links p{
+            width: 327px;
+            height: 78px;
+            border: 1px solid black;
+        }
+
+.link-btns{  
+    display: flex;
+        flex-direction: column;
+}        
+
+}
