@@ -231,7 +231,7 @@ padding-left: 4rem;
 }
 
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
     body{
         width: 48rem;
     }
@@ -302,11 +302,10 @@ margin-top: -5rem;
 }
 }
 
-@media screen and (max-width: 23.43rem){
+@media screen and (max-width: 375px){
 body{
 width: 23.43rem;
 }
-
 
 .first-section{
 width: 100%;
