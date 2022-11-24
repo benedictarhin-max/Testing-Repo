@@ -32,7 +32,7 @@ HTML and CSS
     </tr>
     <tr align="center">
         <td>
-        <img src="./mlp-tablet.png" width=500px height=600px>
+        <img src="./mlp-tablet.png" width=500px height=700px>
         </td>
         <td>
         <img src="./mlp-mobile.png" width=200px height=600px>
