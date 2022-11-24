@@ -232,6 +232,10 @@ padding-left: 4rem;
 
 
 @media screen and (max-width: 768px) {
+    body{
+        width: 768px;
+    }
+    
     .info-links{
         position: absolute;
         width: 460px;
@@ -297,125 +301,158 @@ height: 428px;
             }
 
 @media screen and (max-width: 375px){
-    body{
-        width: 375px;
-        overflow-x: hidden;
-        padding-right: 0;
-    }
-
-
-    .first-section{
-        width: 100%;
-        height: 153px;
-    }
-
-    
-    #left-image{
-        width: 199px;
-            height: 153px;
-            padding-left: 10px;
-    }
-    
-    
-    #right-image{ 
-        width: 199px; 
-        height: 153px; 
-        margin-left: 0;
-        padding-left: 15px;
-    }
-    
-    .info-links{
-        height: 420px;
-        display: flex;
-        flex-direction: column;
-        width: 327px;
-        margin-left: 0;
-        margin-top: 200px;
-    }
-    .info-links h1{
-            width: 327px;
-            height: 88px;
-            font-size: 40px;
-            line-height: 44px;
-        }
-
-.info-links p{
-            width: 327px;
-            height: 78px;
-            font-size: 16px;
-        }
-
-.link-btns{  
-    display: flex;
-    flex-direction: column;
-    margin-top: 19px;
-    height: 142px;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 16px;
-}        
-
-.second-section {
-    display: flex;
-    width: 327px;
-    height: 310px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 17px;
-    margin-right: 24px;
+body{
+width: 375px;
 }
 
-.second-section-image{
+
+.first-section{
+width: 100%;
+padding: 0;
+margin-top: 54px;
+}
+
+.first-section-image{
+width: 199px;
+height: 153px;   
+padding-right: 0;
+}
+
+.first-section img{
+width: 199px;
+margin: 0;
+height: 153px;
+}
+
+#left-image{
+margin-left: -1.25rem;
+}
+
+#right-image{
+margin: 0;
+padding-left: 15px;
+}
+
+.info-links{
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: -1px;
+    padding: 0;
+    padding-top: 0;
+}
+
+.info-links h1{
+    font-size: 44px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.link-btns{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height: 150px;
+margin-top: 0;
+}
+
+#one{
+margin-top: 500px;    
+}
+
+.second-section{
+width: 327px;
+height: 312px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.second-section-image #scnd-sct-img-2{
+margin: 0;
+}
+
+.second-section img{
 width: 151px;
 height: 143px;
 }
 
-#scnd-sct-img-1,
-#scnd-sct-img-2 {
-    margin-bottom: 24px;
-}
-
-#scnd-sct-img-1,
-#scnd-sct-img-3 {
-    margin-right: 25px;
+#scnd-sct-img-1, 
+#scnd-sct-img-1{
+margin-bottom: 24px;
+height: 143px;
 }
 
 .about-meet{
-    width: 327px;
-    height: 284px;
+width: 327px;
+height: 284px;
+margin-bottom: 64px;
 }
 
-.overline, .about-meet p{
-    font-size: 16px;
+.overline{ 
+font-size: 16px; 
+margin-top: 0; 
+height: 26px;
+line-height: 26px;
 }
 
 .about-meet h2{
-    font-size: 32px;
+height: 72px;
+font-size: 32px;
+line-height: 36px;
+}
+
+.about-meet p{
+    font-size: 16px;
+    height: 130px;
+    line-height: 26px;
 }
 
 #two{
-    margin-top: -70px;
+    margin-bottom: 0;
 }
+
 .footer{
-    background-image: url("./assets/desktop/image-footer.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 428px;
-        width: 375px;
+width: 100%;
+height: 428px;
+padding: 0;
+padding-bottom: 0;
+background-image: url('./assets/mobile/image-footer.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.image-overlay{
+height: 428px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 0;
 }
 
 .overlay-text-1{
-    width: 327px;
-    font-size: 32px;
-margin-right: 62px;
+width: 327px;
+height: 72px;   
+font-size: 32px;
+line-height: 36px;
+margin: 0;
+margin-top: 75px;
 }
 
 .overlay-text-2{
-    width: 327px;
-    height: 78px;
-font-size: 18px;
-margin-left: 17px;
+width: 327px;
+height: 78px;
+line-height: 26px;
+margin: 0;
 }
 
+.overlay-btn{
+    margin: 0;
+    margin-bottom: 45px;
+}
 }
