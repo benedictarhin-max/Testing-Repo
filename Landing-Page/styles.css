@@ -231,97 +231,99 @@ padding-left: 4rem;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     body{
-        width: 768px;
+        width: 48rem;
     }
     
     .info-links{
         position: absolute;
-        width: 460px;
-            height: 262px;
+        width: 28.7rem;
+            height: 16.375rem;
             margin-top: 20rem;
             margin-left: 7.68rem;
     }
 
     .first-section {
 margin-top: 5rem;
-width: 768px;
-        }
+width: 48rem;
+}
 
-        #right-image{
-            margin-left: 1rem;
-        }
+#right-image{
+margin-left: 1rem;
+}
+
 #one{
-    margin-top: 35rem;
+margin-top: 35rem;
 }
 
 .second-section{
-    width: 689px;
-    height: 156px;
+width: 43rem;
+height: 9.75rem;
 }
 
 .second-section img{
-    width: 164px;
-    height: 156px;
+width: 10.25rem;
+height: 9.75rem;
 }
 
 .footer{
 background-image: url("./assets/desktop/image-footer.jpg");
 background-size: cover;
 background-position: center;
-height: 428px;
+height: 26.75rem;
 }
 
-    .image-overlay{
-        flex-direction: column;
-        justify-content: space-around;
-    }                    
+.image-overlay{
+flex-direction: column;
+justify-content: space-around;
+}                    
 
     
-    .overlay-text-1{
-        width: 457px;
-        height: 88px;
-        text-align: center;
-    }
-        .overlay-text-2{
-            width: 573px;
-            height: 52px;
-            text-align: center; 
-            font-size: 1.1rem;    
-            margin-top: -4rem;  
-        }
+.overlay-text-1{
+width: 28.56rem;
+height: 5.5rem;
+text-align: center;
+}
 
-    .overlay-btn{
-    width: 193px;
-    height: 58px;
-    margin-right: 5rem;
-    margin-top: -5rem;
-                }
-            }
+.overlay-text-2{
+width: 35.8rem;
+height: 3.25rem;
+text-align: center; 
+font-size: 1.1rem;    
+margin-top: -4rem;  
+}
 
-@media screen and (max-width: 375px){
+.overlay-btn{
+width: 12.06rem;
+height: 3.6rem;
+margin-right: 5rem;
+margin-top: -5rem;
+}
+}
+
+@media screen and (max-width: 23.43rem){
 body{
-width: 375px;
+width: 23.43rem;
 }
 
 
 .first-section{
 width: 100%;
 padding: 0;
-margin-top: 54px;
+margin-top: 3.375rem;
 }
 
 .first-section-image{
-width: 199px;
-height: 153px;   
+width: 12.43rem;
+height: 9.56rem;   
 padding-right: 0;
 }
 
 .first-section img{
-width: 199px;
+width: 12.43rem;
 margin: 0;
-height: 153px;
+height: 9.56rem;
 }
 
 #left-image{
@@ -330,22 +332,22 @@ margin-left: -1.25rem;
 
 #right-image{
 margin: 0;
-padding-left: 15px;
+padding-left: 0.9rem;
 }
 
 .info-links{
     width: 100%;
-    height: 360px;
+    height: 22.5rem;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 12.5rem;
     margin-left: -1px;
     padding: 0;
     padding-top: 0;
 }
 
 .info-links h1{
-    font-size: 44px;
-    line-height: 44px;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
     text-align: center;
     margin-top: 0;
 }
@@ -355,17 +357,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
-height: 150px;
+height: 9.375rem;
 margin-top: 0;
 }
 
 #one{
-margin-top: 500px;    
+margin-top: 31.25rem;    
 }
 
 .second-section{
-width: 327px;
-height: 312px;
+width: 20.43rem;
+height: 19.5rem;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -376,48 +378,48 @@ margin: 0;
 }
 
 .second-section img{
-width: 151px;
-height: 143px;
+width: 9.43rem;
+height: 8.9rem;
 }
 
 #scnd-sct-img-1, 
 #scnd-sct-img-1{
-margin-bottom: 24px;
-height: 143px;
+margin-bottom: 1.5rem;
+height: 9.43rem
 }
 
 .about-meet{
-width: 327px;
-height: 284px;
-margin-bottom: 64px;
+width: 20.43rem;
+height: 17.75rem;
+margin-bottom: 4rem;
 }
 
 .overline{ 
-font-size: 16px; 
+font-size: 1rem; 
 margin-top: 0; 
-height: 26px;
-line-height: 26px;
+height: 1.6rem;
+line-height: 1.6rem;
 }
 
 .about-meet h2{
-height: 72px;
-font-size: 32px;
-line-height: 36px;
+height: 4.5rem;
+font-size: 2rem;
+line-height: 2.25rem;
 }
 
 .about-meet p{
-    font-size: 16px;
-    height: 130px;
-    line-height: 26px;
+font-size: 1rem;
+height: 8.125rem;
+line-height: 1.625rem;
 }
 
 #two{
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 
 .footer{
 width: 100%;
-height: 428px;
+height: 26.75rem;
 padding: 0;
 padding-bottom: 0;
 background-image: url('./assets/mobile/image-footer.jpg');
@@ -426,7 +428,7 @@ background-position: center;
 }
 
 .image-overlay{
-height: 428px;
+height: 26.75rem;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -436,23 +438,23 @@ padding-bottom: 0;
 }
 
 .overlay-text-1{
-width: 327px;
-height: 72px;   
-font-size: 32px;
-line-height: 36px;
+width: 20.43rem;
+height: 4.5rem;   
+font-size: 2rem;
+line-height: 2.25rem;
 margin: 0;
-margin-top: 75px;
+margin-top: 4.68rem;
 }
 
 .overlay-text-2{
-width: 327px;
-height: 78px;
-line-height: 26px;
+width: 20.43rem;
+height: 4.8rem;
+line-height: 1.625rem;
 margin: 0;
 }
 
 .overlay-btn{
-    margin: 0;
-    margin-bottom: 45px;
+margin: 0;
+margin-bottom: 2.81rem;
 }
 }
