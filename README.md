@@ -27,15 +27,15 @@ HTML and CSS
 <table align="center">
     <tr align="center">
         <td>
-        <img src="./mlp-desktop.png" width=800px height=350px>
+        <img src="./mlp-desktop.png" width=800px height=800px>
         </td>
     </tr>
     <tr align="center">
         <td>
-        <img src="./mlp-tablet.png" width=450px height=600px>
+        <img src="./mlp-tablet.png" width=768px height=600px>
         </td>
         <td>
-        <img src="./mlp-mobile.png" width=400px height=600px>
+        <img src="./mlp-mobile.png" width=375px height=600px>
         </td>
     </tr>
 </table>
