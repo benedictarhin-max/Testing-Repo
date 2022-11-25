@@ -5,7 +5,6 @@ body{
     font-size: 1.25rem;
     margin: 0;
     margin-top: 4.375rem;
-    overflow-x: hidden;
 }
 
 .meet-logo{
@@ -48,15 +47,14 @@ background-color: #4d96a9;
 
 }
 
-.first-section{
+.hero-section{
 display: flex;
 margin-bottom: 6.25rem;
-width: 100vw;
 overflow: hidden;
 }
 
-.first-section-image{
-        width: 380px;
+.hero-section-image{
+        width: 23.75rem;
         
 }
 
@@ -69,25 +67,25 @@ margin-right: 0;
 padding-left: 0;
 }
 
-.info-links{
+.meet-info{
         width: 530px;
         text-align: center;
         padding-left: 2rem;
         padding-right: 2rem;
 }
 
-.info-links p{
+.meet-info p{
     color: #87879d;
 }
 
-h1{
+.meet-info h1{
     font-size: 4rem;
     font-family: 'Red Hat Display', sans-serif;
     color: #28283d;
 
 }
 
-.link-btns{
+.meet-btns{
     margin-top: 3.125rem;
     
 }
@@ -129,8 +127,6 @@ span{
     height: 8.75rem;
     width: 3.5rem;
     margin: auto;
-    position: relative;
-    z-index: 1;
 }
 
 .line{
@@ -150,17 +146,29 @@ span{
     background-color: white;
 }
 
-.second-section{
+.meet-chat{
     display: flex;
-    width: 69.375rem;
+    width: 69rem;
     height: 15rem;
-    justify-content: space-between;
     margin: auto;
 }
 
-.second-section img{
+.meet-chat img{
+    width: 15.9rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+#mt-cht-img-1, 
+#mt-cht-img-2, 
+#mt-cht-img-3{
+margin-left: 0;
+margin-right: 30px;
+}
+
+
+.meet-chat-image{
     height: 100%;
-    width: 15.6rem;
     border-radius: 0.625rem;
 }
 
@@ -183,8 +191,9 @@ letter-spacing: 0.25rem;
     font-size: 1.125rem;
 }
 
-h2{
-font-size: 2.75rem;
+#section-two{
+    position: relative;
+    z-index: 1;
 }
 
 .footer{
@@ -193,7 +202,7 @@ font-size: 2.75rem;
     background-image: url("./assets/desktop/image-footer.jpg");
     background-size: cover;
     height: 19.25rem;
-    width: 100vw;
+
 }
 
 .image-overlay{
@@ -220,6 +229,7 @@ padding-left: 4rem;
 
 .overlay-btn .download-btn{
     background-color: #855fb1;
+    margin-left: 2rem;
 } 
 
 .overlay-btn .download-btn span{
@@ -236,35 +246,45 @@ padding-left: 4rem;
         width: 48rem;
     }
     
-    .info-links{
-        position: absolute;
-        width: 28.7rem;
-            height: 16.375rem;
-            margin-top: 20rem;
-            margin-left: 7.68rem;
-    }
 
-    .first-section {
-margin-top: 5rem;
-width: 48rem;
+.hero-section {
+    margin-top: 5rem;
+    width: 48rem;
 }
+
+.meet-info{
+position: absolute;
+width: 28.7rem;
+height: 16.375rem;
+margin-top: 20rem;
+margin-left: 7.68rem;
+}
+
 
 #right-image{
 margin-left: 1rem;
 }
 
-#one{
+#section-one{
 margin-top: 35rem;
 }
 
-.second-section{
-width: 43rem;
+.meet-chat{
+width: 43.1rem;
+height: 9.75rem;
+margin: auto;
+}
+
+.meet-chat img{
+width: 10.25rem;
 height: 9.75rem;
 }
 
-.second-section img{
-width: 10.25rem;
-height: 9.75rem;
+#mt-cht-img-1,
+#mt-cht-img-2,
+#mt-cht-img-3 {
+    margin-left: 0;
+    margin-right: 11px;
 }
 
 .footer{
@@ -279,7 +299,7 @@ flex-direction: column;
 justify-content: space-around;
 }                    
 
-    
+
 .overlay-text-1{
 width: 28.56rem;
 height: 5.5rem;
@@ -307,19 +327,19 @@ body{
 width: 23.43rem;
 }
 
-.first-section{
+.hero-section{
 width: 100%;
 padding: 0;
 margin-top: 3.375rem;
 }
 
-.first-section-image{
+.hero-section-image{
 width: 12.43rem;
 height: 9.56rem;   
 padding-right: 0;
 }
 
-.first-section img{
+.hero-section img{
 width: 12.43rem;
 margin: 0;
 height: 9.56rem;
@@ -334,7 +354,7 @@ margin: 0;
 padding-left: 0.9rem;
 }
 
-.info-links{
+.meet-info{
     width: 100%;
     height: 22.5rem;
     text-align: center;
@@ -344,14 +364,14 @@ padding-left: 0.9rem;
     padding-top: 0;
 }
 
-.info-links h1{
+.meet-info h1{
     font-size: 2.75rem;
     line-height: 2.75rem;
     text-align: center;
     margin-top: 0;
 }
 
-.link-btns{
+.meet-btns{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -360,11 +380,11 @@ height: 9.375rem;
 margin-top: 0;
 }
 
-#one{
+#section-one{
 margin-top: 31.25rem;    
 }
 
-.second-section{
+.meet-chat{
 width: 20.43rem;
 height: 19.5rem;
 display: flex;
@@ -372,19 +392,26 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 
-.second-section-image #scnd-sct-img-2{
+#mt-cht-img-2{
 margin: 0;
 }
 
-.second-section img{
+.meet-chat-image{
+    height: 8.9rem;
+}
+.meet-chat img{
 width: 9.43rem;
 height: 8.9rem;
 }
 
-#scnd-sct-img-1, 
-#scnd-sct-img-1{
+#mt-cht-img-1, 
+#mt-cht-img-2{
 margin-bottom: 1.5rem;
-height: 9.43rem
+
+}
+
+#mt-cht-img-1, #mt-cht-img-3{ 
+margin-right: 1.3rem;
 }
 
 .about-meet{
@@ -412,12 +439,11 @@ height: 8.125rem;
 line-height: 1.625rem;
 }
 
-#two{
+#section-two{
 margin-bottom: 0;
 }
 
 .footer{
-width: 100%;
 height: 26.75rem;
 padding: 0;
 padding-bottom: 0;
@@ -431,29 +457,31 @@ height: 26.75rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-left: 0;
-padding-right: 0;
-padding-bottom: 0;
+justify-content: space-between;
+padding: 0;
 }
 
 .overlay-text-1{
 width: 20.43rem;
-height: 4.5rem;   
-font-size: 2rem;
-line-height: 2.25rem;
+height: 4.5rem;
+font-size: 32px;
+line-height: 36px;
 margin: 0;
-margin-top: 4.68rem;
+margin-top: 5.75rem;
+margin-bottom: 0;
 }
 
 .overlay-text-2{
 width: 20.43rem;
-height: 4.8rem;
-line-height: 1.625rem;
-margin: 0;
+height: 4.87rem;
+font-size: 18px;
+line-height: 26px;
+margin-top: 1.5rem;
+margin-right: 0.2rem;
+}
+.overlay-btn{
+    margin-top: 2rem;
+margin-bottom: 4.5rem;
 }
 
-.overlay-btn{
-margin: 0;
-margin-bottom: 2.81rem;
-}
 }
